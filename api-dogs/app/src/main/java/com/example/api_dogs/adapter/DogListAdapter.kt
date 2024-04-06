@@ -35,8 +35,9 @@ class DogListAdapter : ListAdapter<Dog, DogListAdapter.ViewHolder>(DogItemCallba
                     .into(dogImage)
 
                 dogName.text = dog.name
-                dogEnergy.text = dog.energy.toString()
-                dogGoodWithChildren.text = dog.goodWithChildren.toString()
+                dogEnergy.text = "Energy: " + dog.energy.toString()
+                dogGoodWithChildren.text = "Good With Children: " + dog.goodWithChildren.toString()
+                maxLifeExpectancy.text = "Max Life Expectancy: " + dog.maxLifeExpectancy.toString() + " years"
 
             }
         }

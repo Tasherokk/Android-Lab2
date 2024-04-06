@@ -8,6 +8,6 @@ data class Dog (
     @SerializedName("image_link") val img: String,
     val energy: Int,
     @SerializedName("good_with_children") val goodWithChildren: Int,
-    @SerializedName("max_life_expectancy") val maxLifeExpectancy: String
+    @SerializedName("max_life_expectancy") val maxLifeExpectancy: Int
 
 )
